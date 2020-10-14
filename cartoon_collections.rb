@@ -49,7 +49,7 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   found = nil 
   count = 0 
-  planeteer_calls.find do |call|
+  planeteer_calls.each do |call|
       if call == valid_calls.each 
         found = call  
   end
