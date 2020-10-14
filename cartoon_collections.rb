@@ -55,6 +55,11 @@ end
 # found 
 # end 
 # end 
+
+ def find_valid_calls(planeteer_calls)
+#   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+#   found = nil
+  planeteer_calls.find do |call|
       
 
 
