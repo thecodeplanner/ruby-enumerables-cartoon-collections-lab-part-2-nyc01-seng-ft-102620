@@ -32,12 +32,25 @@ end
   # Return the first valid call found, or return nil if no valid calls are found
 
 
+# def find_valid_calls(planeteer_calls)
+#   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+#   found = nil 
+#   count = 0 
+#   planeteer_calls.find do |call|
+#       if call == valid_calls[count]
+#         found = call  
+#   end
+#   count += 1
+# end
+# found
+# end 
+
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   found = nil 
   count = 0 
   planeteer_calls.find do |call|
-      if call == valid_calls[count]
+      if call == valid_calls.each 
         found = call  
   end
   count += 1
